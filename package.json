@@ -1,0 +1,22 @@
+{
+  "name": "osrm-isochrone-server",
+  "version": "5.12.1",
+  "description": "api isochrone",
+  "main": "server.js",
+  "dependencies": {
+    "minimist": "^1.1.2",
+    "osrm": ">=5.5",
+    "osrm-isochrone": "git+https://github.com/mapbox/osrm-isochrone.git",
+    "polyline": "^0.1.0",
+    "hull.js": "^0.2.7",
+    "turf-buffer": "^1.0.4",
+    "config": "^1.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Indrit Zeqiri",
+  "license": "RandazzoSRL"
+}
