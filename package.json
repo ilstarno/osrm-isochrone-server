@@ -18,5 +18,5 @@
     "start": "node server.js"
   },
   "author": "Indrit Zeqiri",
-  "license": "RandazzoSRL"
+  "license": "GPL"
 }
